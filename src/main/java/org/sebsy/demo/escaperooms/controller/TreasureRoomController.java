@@ -2,9 +2,9 @@ package org.sebsy.demo.escaperooms.controller;
 
 import org.sebsy.demo.escaperooms.bll.TreasureService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
-@Controller
+@Component
 public class TreasureRoomController {
 
     @Autowired

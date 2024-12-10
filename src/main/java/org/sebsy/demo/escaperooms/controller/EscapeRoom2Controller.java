@@ -2,9 +2,9 @@ package org.sebsy.demo.escaperooms.controller;
 
 import org.sebsy.demo.escaperooms.bll.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
-@Controller("room2")
+@Component("room2")
 public class EscapeRoom2Controller {
 
     private RoomService roomService;

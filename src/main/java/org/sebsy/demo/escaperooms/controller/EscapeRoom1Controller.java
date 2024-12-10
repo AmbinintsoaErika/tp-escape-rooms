@@ -1,8 +1,8 @@
 package org.sebsy.demo.escaperooms.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
-@Controller
+@Component
 public class EscapeRoom1Controller {
 
     public void entreeSalle1() {
